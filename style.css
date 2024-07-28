@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON CSS CLASSES */
+.body{
+    background-color:#df826c;
+    height: 1000px;  
+}
+
+.time{
+    display: flex;
+    margin: 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css for clocks */
+ 
+.clock {
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:10px;
+height: 500px;
+background-color: #f8ffd2;
+box-sizing: content-box;
+font-size:xx-large;
+font-family: 'Noto Serif','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+}
+
+ul li{
+    margin:10px;
+}
+
+.date_of_year{
+    display: flex;
+  
+}
+
+.date_of_month,.day{
+    margin:0px 10px;   
+}
+
+/* css for Timer */
+
+.Timer{
+    height: 500px;  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: content-box;
+    margin:10px;
+    padding: 20px;
+    color: #292722;
+    font-size:xx-large;
+    font-family: 'Noto Serif','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color:#d0f288;
+}
+
+.set_hrs , .set_min , .set_sec{
+text-align: center;  
+/* outline:auto; */
+border:auto;
+height: 200px;
+width: 200px;
+font-size:xx-large;
+font-family: 'Noto Serif','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+
+}
+
+/* 
+.cover_me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    position: absolute;
+    z-index: 100;
+}
+ */
+
+
+
+.before{
+    visibility: hidden;
+}
+
+.after{
+    height: 400px;  
+    width:90vw;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: content-box;
+    margin:auto;
+    padding: 20px;
+    color:white;
+    font-size:xx-large;
+    position: absolute;
+    font-family: 'Noto Serif','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color:black;
+    z-index: 100;
+}
